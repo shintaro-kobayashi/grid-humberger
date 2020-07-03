@@ -1,0 +1,22 @@
+@charset "UTF-8";
+html,
+body {
+  max-width: 100%;
+  display: grid;
+  grid-template:
+    "l-header l-sidebar" 140px
+    "l-hero l-sidebar" 300px
+    "l-main l-sidebar" 1192px
+    "l-map l-sidebar" 649px
+    "l-footer l-footer" 150px
+    /1fr 19%;
+}
+
+h1 {
+  font-size: 3vw;
+  color: #707070;
+}
+
+h2 {
+  font-size: 2vw;
+}
