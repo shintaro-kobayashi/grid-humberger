@@ -105,7 +105,7 @@ body {
   max-width: 100%;
   display: -ms-grid;
   display: grid;
-  grid-template: "l-header l-sidebar" 140px "l-hero l-sidebar" 300px "l-main l-sidebar" 1192px "l-map l-sidebar" 649px "l-footer l-footer" 150px /1fr 19%;
+  grid-template: "l-header l-sidebar" 140px "l-hero l-sidebar" 300px "l-main l-sidebar" 1192px "l-map l-sidebar" 649px "l-footer l-footer" 150px /1fr 20%;
 }
 
 h1 {
@@ -118,18 +118,20 @@ h2 {
 }
 
 .l-footer {
-  background-color: purple;
+  background-image: url(/img/_____1.png);
+  background-size: cover;
   grid-area: l-footer;
 }
 
-.l-haeder {
-  background-color: red;
+.l-header {
+  background-color: #fff7ef;
   grid-area: l-header;
 }
 
 .l-hero {
-  background-color: aqua;
+  background-image: url(/img/ID3ba5a44414bb3c0885c27ff61459.png);
   grid-area: l-hero;
+  background-size: cover;
 }
 
 .l-main {
@@ -138,12 +140,13 @@ h2 {
 }
 
 .l-map {
-  background-color: orange;
+  background-image: url(/img/__________2020_02_10_11_47_42.png);
+  background-size: cover;
   grid-area: l-map;
 }
 
 .l-sidebar {
-  background-color: brown;
+  background-color: #f2ede9;
   grid-area: l-sidebar;
 }
 /*# sourceMappingURL=style.css.map */
